@@ -129,6 +129,19 @@
     height: 220px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+    padding: 10px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-content .cards .card .icons {
+    display: flex;
+    gap: 4px;
+    justify-content: right;
+}
+.main-content .icons img {
+    height: 25px;
 }
 
 .main-content .cards > div {
@@ -153,3 +166,9 @@
     margin: 10px 0;
 }
 
+.main-content .card p {
+    margin: 10px 0;
+    font-size: small;
+    color: gray;
+    
+}
